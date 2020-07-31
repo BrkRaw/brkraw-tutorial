@@ -4,4 +4,4 @@
 #
 #    pip-compile
 #
-bruker==0.3.4
+bruker==0.3.3
