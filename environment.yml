@@ -1,0 +1,17 @@
+name: brkraw-tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - git
+  - git-lfs
+  - numpy
+  - matplotlib
+  - nibabel
+  - pandas
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - pip:
+      - git+https://github.com/BrkRaw/brkraw.git
