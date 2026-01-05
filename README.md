@@ -1,6 +1,6 @@
 # BrkRaw Tutorial (Jupyter Notebooks)
 
-This repository contains English tutorials for the updated BrkRaw API using the
+This repository contains tutorials for the updated BrkRaw API using the
 example datasets hosted via Git LFS.
 
 ## Notebooks
@@ -9,11 +9,20 @@ example datasets hosted via Git LFS.
   core BrkRaw workflows (info, metadata, conversion).
 - `notebooks/01_orientation_unwrap_vs_pose.ipynb` — compare unwrap pose vs
   subject pose, reorient to RAS, and visualize the differences.
+- `notebooks/02_cli_tutorial.ipynb` — run the same workflow from the CLI with
+  bash commands and inspect outputs inline.
 
 ## Launch on Binder
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BrkRaw/brkraw-tutorial/HEAD?labpath=notebooks/00_getting_started.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BrkRaw/brkraw-tutorial/HEAD?labpath=notebooks/01_orientation_unwrap_vs_pose.ipynb)
+Open the notebook list:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BrkRaw/brkraw-tutorial/HEAD?urlpath=lab/tree/notebooks)
+
+Open a specific notebook:
+
+- `notebooks/00_getting_started.ipynb` [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BrkRaw/brkraw-tutorial/HEAD?labpath=notebooks/00_getting_started.ipynb)
+- `notebooks/01_orientation_unwrap_vs_pose.ipynb` [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BrkRaw/brkraw-tutorial/HEAD?labpath=notebooks/01_orientation_unwrap_vs_pose.ipynb)
+- `notebooks/02_cli_tutorial.ipynb` [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BrkRaw/brkraw-tutorial/HEAD?labpath=notebooks/02_cli_tutorial.ipynb)
 
 ## Local setup (recommended for Git LFS)
 
